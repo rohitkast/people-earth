@@ -54,6 +54,7 @@ export default function MapStage({ countries, atlas, yearIndex, yearFrac = 0 }) 
         return pts;
       });
       rebuildParticles(state, atlas, state.yearIndex, state.yearFrac || 0);
+      if (!raf) raf = requestAnimationFrame(draw);
     };
 
     const draw = () => {
