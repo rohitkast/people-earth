@@ -1,0 +1,13 @@
+.venv/
+analysis/.venv/
+node_modules/
+dist/
+dist-ssr/
+README.me.md
+*.log
+*.local
+.DS_Store
+.cursor/
+.vscode/*
+!.vscode/extensions.json
+.idea
