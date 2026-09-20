@@ -26,7 +26,7 @@ export default function Hud({
 
   return (
     <div className="hud">
-      <nav className="hud-links" aria-label="Author">
+      <nav className="hud-links" aria-label="Links">
         <a
           aria-label="Rohit Kasturi"
           className="hud-link"
@@ -59,6 +59,31 @@ export default function Hud({
             />
           </svg>
           <span>GitHub</span>
+        </a>
+        <a
+          className="hud-link"
+          href={`${import.meta.env.BASE_URL}people-earth.mp4`}
+          download="people-earth.mp4"
+          aria-label="Download video"
+        >
+          <svg className="hud-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 4v10.5M8.2 11.2 12 15l3.8-3.8"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M5 18.5h14"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+            />
+          </svg>
+          <span>Video</span>
         </a>
       </nav>
 

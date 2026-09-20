@@ -217,7 +217,7 @@ input[type="range"] {
   }
 
   .hud-top {
-    max-width: calc(100% - 92px);
+    max-width: calc(100% - 148px);
   }
 
   .hud-top h1 {
